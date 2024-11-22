@@ -1,0 +1,80 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: #f1f5f9;
+  padding: 20px;
+}
+.header img {
+  height: 3rem;
+  margin-left: 3rem;
+}
+.container {
+  padding: 2rem 4rem;
+}
+select {
+  width: 30%;
+  padding: 8px;
+  outline: none;
+  cursor: pointer;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+.failure-container img {
+  height: 50vh;
+  width: 25vw;
+}
+.failure-container h1 {
+  color: #475569;
+  font-size: 28px;
+}
+.failure-container p {
+  font-size: 20px;
+}
+.failure-container button {
+  background-color: #328af2;
+  padding: 8px 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 0px;
+}
+li {
+  list-style-type: none;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.08);
+  width: 250px;
+  border-radius: 10px;
+}
+li img {
+  width: 100%;
+}
+li p {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
